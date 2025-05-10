@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="./item-style.css" />
+    <!-- FONT AWSOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <!-- NAVBAR -->
+      <nav>
+        <!-- Logo Section -->
+        <a href="../index.html">
+          <section class="logo-container">
+            <img src="../assets/navbar/logo-colored.png" alt="Brand" />
+          </section>
+        </a>
+        <!-- SearchBar Section -->
+        <section class="searchbar-container">
+          <div class="search-col">
+            <input type="search" id="searchbar" placeholder="Search" />
+          </div>
+          <!-- Dropdown Category -->
+          <select name="drop-down" id="drop-down">
+            <option value="">All Category</option>
+            <option value="Electronic">Electronic</option>
+            <option value="Fashion">Fashion</option>
+            <option value="Indoor">Indoor</option>
+          </select>
+          <!-- Search Button -->
+          <div class="search-btn-container">
+            <button>Search</button>
+          </div>
+        </section>
+        <!-- Nav Item -->
+        <section class="nav-item">
+          <div class="nav-col">
+            <div class="img-container">
+              <img src="../assets/navbar/contact.png" alt="Profile" />
+            </div>
+            <p>Profile</p>
+          </div>
+          <div class="nav-col">
+            <div class="img-container">
+              <img src="../assets/navbar/message.png" alt="message" />
+            </div>
+            <p>Message</p>
+          </div>
+          <a href="../cart-view/cart.html">
+            <div class="nav-col">
+              <div class="img-container">
+                <img src="../assets/navbar/order.png" alt="order" />
+              </div>
+              <p>Orders</p>
+            </div>
+          </a>
+          <a href="../cart-view/cart.html">
+            <div class="nav-col">
+              <div class="img-container">
+                <img src="../assets/navbar/cart.png" alt="cart" />
+              </div>
+              <p>My Cart</p>
+            </div>
+          </a>
+        </section>
+      </nav>
+      <!-- Category Section -->
+      <section class="category-section">
+        <section class="category-col-1">
+          <div class="cat-item">
+            <i class="fa-solid fa-bars"></i>
+            <p>All Category</p>
+          </div>
+          <div class="cat-item">
+            <p>Hot offers</p>
+          </div>
+          <div class="cat-item">
+            <p>Gift boxes</p>
+          </div>
+          <div class="cat-item">
+            <p>Projects</p>
+          </div>
+          <div class="cat-item">
+            <p>Menu item</p>
+          </div>
+          <div class="cat-item">
+            <select name="" id="help" class="drop-down">
+              <option value="">Help</option>
+            </select>
+          </div>
+        </section>
+        <section class="category-col-2">
+          <div class="cat-item">
+            <select name="language" id="language" class="drop-down">
+              <option value="">English, USD</option>
+            </select>
+          </div>
+          <div class="cat-item">
+            <div class="country-dropdown">
+              <div class="drop-col">
+                <p>Ship to</p>
+              </div>
+              <div class="drop-col-img">
+                <img src="../assets/usa.png" alt="USA" />
+              </div>
+              <div class="drop-icon">
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- Item Details -->
+      <section class="item-details-grid">
+        <section class="item-col-1">
+          <img src="" alt="" class="item-img" />
+        </section>
+        <section class="item-col-2">
+          <div class="row">
+            <i class="fa-solid fa-check" style="color: #00b517"></i>
+            <p style="color: #00b517">In Stock</p>
+          </div>
+          <h1 class="details-title"></h1>
+          <section class="item-col-sub-container">
+            <div class="rating row">
+              <div>
+                <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                <i
+                  class="fa-solid fa-star"
+                  style="color: rgba(0, 0, 0, 0.2)"
+                ></i>
+              </div>
+              <p style="color: goldenrod">9.3</p>
+            </div>
+            <div class="review row">
+              <i
+                class="fa-solid fa-message"
+                style="color: rgba(0, 0, 0, 0.3)"
+              ></i>
+              <p style="color: rgba(0, 0, 0, 0.3)">32 reviews</p>
+            </div>
+            <div class="sold row">
+              <i
+                class="fa-solid fa-bag-shopping"
+                style="color: rgba(0, 0, 0, 0.3)"
+              ></i>
+              <p style="color: rgba(0, 0, 0, 0.3)">14 sold</p>
+            </div>
+          </section>
+          <section class="price-section">
+            <div
+              class="col padding-right"
+              style="border-right: 1px solid rgba(0, 0, 0, 0.205)"
+            >
+              <p style="color: red; font-weight: 800" class="item-price"></p>
+              <p>50-100pcs</p>
+            </div>
+            <div
+              class="col padding-right"
+              style="border-right: 1px solid rgba(0, 0, 0, 0.205)"
+            >
+              <p style="font-weight: 800" class="discount-price">$90.00</p>
+              <p>100-200pcs</p>
+            </div>
+            <div
+              class="col padding-right"
+              style="border-right: 1px solid rgba(0, 0, 0, 0.205)"
+            >
+              <p style="font-weight: 800" class="discount-price">$80.00</p>
+              <p>200-300pcs</p>
+            </div>
+          </section>
+          <section class="product-details-container">
+            <div class="product-details-sub-container">
+              <p style="color: rgba(0, 0, 0, 0.507)">Price:</p>
+              <p style="color: black">Negotiable</p>
+            </div>
+            <div class="product-details-sub-container">
+              <p style="color: rgba(0, 0, 0, 0.507)">Type:</p>
+              <p style="color: black">Classic</p>
+            </div>
+            <div class="product-details-sub-container">
+              <p style="color: rgba(0, 0, 0, 0.507)">Design:</p>
+              <p style="color: black">Modern</p>
+            </div>
+            <div class="product-details-sub-container">
+              <p style="color: rgba(0, 0, 0, 0.507)">Refund Policy:</p>
+              <p style="color: black">Refundable</p>
+            </div>
+          </section>
+        </section>
+        <section class="item-col-3">
+          <div class="item-sub-col-1">
+            <div class="seller-logo">R</div>
+            <p>Supplier Trading ltd</p>
+          </div>
+          <div class="item-sub-col-2">
+            <div class="row">
+              <div class="country-logo">
+                <img src="../assets/usa.png" alt="" />
+              </div>
+              <p>USA, Boston</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-check" style="color: #00b517"></i>
+              <p>Verified Seller</p>
+            </div>
+          </div>
+          <div class="item-sub-col-3">
+            <div class="col">
+              <button class="join-btn">Send Inquiry</button>
+              <button class="login-btn">Seller's Profile</button>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- Product Description -->
+      <section class="product-description-grid">
+        <div class="product-col-1">
+          <div class="product-sub-col-1">
+            <p>Description</p>
+            <p>Reviews</p>
+            <p>Shipping</p>
+            <p>About Sellers</p>
+          </div>
+          <div class="product-sub-col-2">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+              excepturi velit numquam inventore, corporis recusandae consectetur
+              voluptates quasi culpa veritatis.Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Dicta excepturi velit numquam
+              inventore, corporis recusandae consectetur voluptates quasi culpa
+              veritatis.
+            </p>
+          </div>
+          <div class="product-sub-col-3">
+            <div class="product-row">
+              <p>Model</p>
+              <p>#852341</p>
+            </div>
+            <div class="product-row">
+              <p>Style</p>
+              <p>Classic</p>
+            </div>
+            <div class="product-row">
+              <p>Model</p>
+              <p>34mm x 460mm x 19mm</p>
+            </div>
+            <div class="product-row">
+              <p>textile</p>
+              <p>fiber</p>
+            </div>
+          </div>
+          <div class="product-sub-col-4">
+            <div class="row">
+              <i class="fa-solid fa-check" style="color: #00b517"></i>
+              <p>Some great feature name here</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-check" style="color: #00b517"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda, reiciendis?
+              </p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-check" style="color: #00b517"></i>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="row">
+              <i class="fa-solid fa-check" style="color: #00b517"></i>
+              <p>Some great feature name here</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-col-1">
+          <h4>You may like</h4>
+          <a href="./items.html?id=18">
+            <div class="flex product-item">
+              <div class="product-img-container">
+                <img src="../assets/cloth/1.jpg" alt="" />
+              </div>
+              <div>
+                <p>Shirt</p>
+                <p style="color: rgba(0, 0, 0, 0.37)">$10.30</p>
+              </div>
+            </div>
+          </a>
+          <a href="./items.html?id=21">
+            <div class="flex product-item">
+              <div class="product-img-container">
+                <img src="../assets/cloth/5.jpg" alt="" />
+              </div>
+              <div>
+                <p>Jeans Bag</p>
+                <p style="color: rgba(0, 0, 0, 0.37)">$14.30</p>
+              </div>
+            </div>
+          </a>
+          <a href="./items.html?id=20">
+            <div class="flex product-item">
+              <div class="product-img-container">
+                <img src="../assets/cloth/4.jpg" alt="" />
+              </div>
+              <div>
+                <p>Jeans Short</p>
+                <p style="color: rgba(0, 0, 0, 0.37)">$8.30</p>
+              </div>
+            </div>
+          </a>
+          <a href="./items.html?id=19">
+            <div class="flex product-item">
+              <div class="product-img-container">
+                <img src="../assets/cloth/3.jpg" alt="" />
+              </div>
+              <div>
+                <p>Leather Jacket</p>
+                <p style="color: rgba(0, 0, 0, 0.37)">$20.30</p>
+              </div>
+            </div>
+          </a>
+          <a href="./items.html?id=18">
+            <div class="flex product-item">
+              <div class="product-img-container">
+                <img src="../assets/cloth/1.jpg" alt="" />
+              </div>
+              <div>
+                <p>Shirt</p>
+                <p style="color: rgba(0, 0, 0, 0.37)">$10.30</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- Related Products -->
+      <section class="recommended-section">
+        <h2>Recommended Items</h2>
+        <div class="items-grid-layout">
+          <!-- Item 1 -->
+          <a href="./items.html?id=18">
+            <div class="item-container">
+              <div class="item-col-1">
+                <img src="../assets/cloth/1.jpg" alt="" />
+              </div>
+              <div class="item-col-2">
+                <h3>$10.30</h3>
+                <p>T-shirts with multiple colors</p>
+              </div>
+            </div>
+          </a>
+          <!-- Item 2 -->
+          <a href="./items.html?id=19">
+            <div class="item-container">
+              <div class="item-col-1">
+                <img src="../assets/cloth/3.jpg" alt="" />
+              </div>
+              <div class="item-col-2">
+                <h3>$20.30</h3>
+                <p>Jacket with multiple colors</p>
+              </div>
+            </div>
+          </a>
+          <!-- Item 3 -->
+          <a href="./items.html?id=20">
+            <div class="item-container">
+              <div class="item-col-1">
+                <img src="../assets/cloth/4.jpg" alt="" />
+              </div>
+              <div class="item-col-2">
+                <h3>$8.30</h3>
+                <p>Jeans Short</p>
+              </div>
+            </div>
+          </a>
+          <!-- Item 4 -->
+          <a href="./items.html?id=21">
+            <div class="item-container">
+              <div class="item-col-1">
+                <img src="../assets/cloth/5.jpg" alt="" />
+              </div>
+              <div class="item-col-2">
+                <h3>$14.30</h3>
+                <p>Denim Bag</p>
+              </div>
+            </div>
+          </a>
+          <!-- Item 5 -->
+          <a href="./items.html?id=22">
+            <div class="item-container">
+              <div class="item-col-1">
+                <img src="../assets/cloth/7.jpg" alt="" />
+              </div>
+              <div class="item-col-2">
+                <h3>$20.30</h3>
+                <p>Plain Coat</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- discount-card -->
+      <section class="discount-section">
+        <div class="discount-col-1">
+          <h2>Super discount on more than 100 USD</h2>
+          <p>Have you ever finally just write dummy info</p>
+        </div>
+
+        <div class="discount-col-2">
+          <button>Shop now</button>
+        </div>
+      </section>
+
+      <footer class="footer-section">
+        <div class="footer-col-1">
+          <section class="logo-container">
+            <img src="../assets/navbar/logo-colored.png" alt="Brand" />
+          </section>
+          <p style="color: hsla(0, 0%, 0%, 0.5)">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <section class="social-media-icons">
+            <a href="#" class="social-icon">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </section>
+        </div>
+        <div class="footer-col-2">
+          <p style="font-weight: 700">About</p>
+          <div class="footer-link-container">
+            <a href="#" class="footer-link">About Us</a>
+            <a href="#" class="footer-link">Find Store</a>
+            <a href="#" class="footer-link">Categories</a>
+            <a href="#" class="footer-link">Blogs</a>
+          </div>
+        </div>
+        <div class="footer-col-3">
+          <p style="font-weight: 700">Partnership</p>
+          <div class="footer-link-container">
+            <a href="#" class="footer-link">About Partnership</a>
+            <a href="#" class="footer-link">Outlets</a>
+            <a href="#" class="footer-link">Demands</a>
+            <a href="#" class="footer-link">History</a>
+          </div>
+        </div>
+        <div class="footer-col-4">
+          <p style="font-weight: 700">Information</p>
+          <div class="footer-link-container">
+            <a href="#" class="footer-link">Help Center</a>
+            <a href="#" class="footer-link">Money Refund</a>
+            <a href="#" class="footer-link">Shipping</a>
+            <a href="#" class="footer-link">Contact Us</a>
+          </div>
+        </div>
+        <div class="footer-col-5">
+          <p style="font-weight: 700">For User</p>
+          <div class="footer-link-container">
+            <a href="#" class="footer-link">Login</a>
+            <a href="#" class="footer-link">Register</a>
+            <a href="#" class="footer-link">Settings</a>
+            <a href="#" class="footer-link">My Order</a>
+          </div>
+        </div>
+        <div class="footer-col-5">
+          <p style="font-weight: 700">Get App</p>
+          <div class="footer-link-container">
+            <div class="img-container app-container">
+              <img src="../assets/market-button.png" alt="" />
+            </div>
+            <div class="img-container app-container">
+              <img src="../assets/market-button-2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </footer>
+      <section class="copy-right-container">
+        <p>&copy; <span>2025 Ecommerce</span></p>
+        <div class="language-drop-down">
+          <div class="drop-col-img">
+            <img src="./assets/usa.png" alt="" />
+          </div>
+          <p>English</p>
+          <i class="fa-solid fa-caret-up" style="color: rgba(0, 0, 0, 0.5)"></i>
+        </div>
+      </section>
+    </main>
+
+    <script src="./items-script.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

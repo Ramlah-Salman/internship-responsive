@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Smart Watch",
+    "price": "$19",
+    "src": "../assets/8.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Laptop",
+    "price": "$239",
+    "src": "../assets/7.jpg"
+  },
+  {
+    "id": 3,
+    "name": "GoPro cameras",
+    "price": "$39",
+    "src": "../assets/6.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Gaming Headset",
+    "price": "$59",
+    "src": "../assets/5.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Smart Phones",
+    "price": "$600",
+    "src": "../assets/4.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Soft Chair",
+    "price": "$19",
+    "src": "../assets/Outdoor/1.jpg"
+  },
+  {
+    "id": 7,
+    "name": "lamp",
+    "price": "$39",
+    "src": "../assets/Outdoor/6.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Pot",
+    "price": "$9",
+    "src": "../assets/Outdoor/3.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Washing Machine",
+    "price": "$69",
+    "src": "../assets/Outdoor/10.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Chair",
+    "price": "$30",
+    "src": "../assets/Outdoor/2.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Coffee Maker",
+    "price": "$39",
+    "src": "../assets/Outdoor/8.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Juicer",
+    "price": "$9",
+    "src": "../assets/Outdoor/9.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Bed",
+    "price": "$9",
+    "src": "../assets/Outdoor/5.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Headphones",
+    "price": "$70",
+    "src": "../assets/tech/9.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Smart Phones",
+    "price": "$69",
+    "src": "../assets/tech/1.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Tablet",
+    "price": "$130",
+    "src": "../assets/tech/2.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Iphone 16 pro",
+    "price": "$709",
+    "src": "../assets/tech/4.jpg"
+  },
+  {
+    "id": 18,
+    "name": "T-Shirt with multiple colors, for men",
+    "price": "$10.30",
+    "src": "../assets/cloth/1.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Jacket with multiple colors",
+    "price": "$20.30",
+    "src": "../assets/cloth/3.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Jeans Short",
+    "price": "$8.30",
+    "src": "../assets/cloth/4.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Denim Bag",
+    "price": "$14.30",
+    "src": "../assets/cloth/5.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Plain Coat",
+    "price": "$20.30",
+    "src": "../assets/cloth/7.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Wallet",
+    "price": "$15.30",
+    "src": "../assets/cloth/6.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Electric Kettle",
+    "price": "$26.70",
+    "src": "../assets/10.jpg"
+  },
+  {
+    "id": 25,
+    "name": "SmartPhone Android",
+    "price": "$40",
+    "src": "../assets/tech/3.jpg"
+  }
+]
