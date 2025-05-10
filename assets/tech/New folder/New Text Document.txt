@@ -1,0 +1,180 @@
+Second Item
+          <a href="../item-details/items.html">
+            <div class="deal-item">
+              <div class="deal-img-container">
+                <img src="../assets/7.jpg" alt="Laptop" />
+              </div>
+              <div class="deal-item-col-2">
+                <div class="price">
+                  <h3>$230.50</h3>
+                  <h5>$250.99</h5>
+                </div>
+                <div class="rating-container">
+                  <div class="rating-col">
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i
+                      class="fa-solid fa-star"
+                      style="color: rgba(0, 0, 0, 0.2)"
+                    ></i>
+                    <i
+                      class="fa-solid fa-star"
+                      style="color: rgba(0, 0, 0, 0.2)"
+                    ></i>
+                  </div>
+                  <p>5.5</p>
+                </div>
+                <p style="color: rgba(0, 0, 0, 0.5); margin-top: 0.5rem">
+                  Laptop
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- Third Item -->
+          <a href="../item-details/items.html">
+            <div class="deal-item">
+              <div class="deal-img-container">
+                <img src="../assets/3.jpg" alt="Smart Watch" />
+              </div>
+              <div class="deal-item-col-2">
+                <div class="price">
+                  <h3>$80.50</h3>
+                  <h5>$100.99</h5>
+                </div>
+                <div class="rating-container">
+                  <div class="rating-col">
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i
+                      class="fa-solid fa-star"
+                      style="color: rgba(0, 0, 0, 0.2)"
+                    ></i>
+                  </div>
+                  <p>7.5</p>
+                </div>
+                <p style="color: rgba(0, 0, 0, 0.5); margin-top: 0.5rem">
+                  Phone
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- Fourth Item -->
+          <a href="../item-details/items.html">
+            <div class="deal-item">
+              <div class="deal-img-container">
+                <img src="../assets/4.jpg" alt="Smart Watch" />
+              </div>
+              <div class="deal-item-col-2">
+                <div class="price">
+                  <h3>$730.50</h3>
+                  <h5>$750.99</h5>
+                </div>
+                <div class="rating-container">
+                  <div class="rating-col">
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                  </div>
+                  <p>10</p>
+                </div>
+                <p style="color: rgba(0, 0, 0, 0.5); margin-top: 0.5rem">
+                  Iphone
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- Fifth Item -->
+          <a href="../item-details/items.html">
+            <div class="deal-item">
+              <div class="deal-img-container">
+                <img src="../assets/2.jpg" alt="Smart Watch" />
+              </div>
+              <div class="deal-item-col-2">
+                <div class="price">
+                  <h3>$530.50</h3>
+                  <h5>$550.99</h5>
+                </div>
+                <div class="rating-container">
+                  <div class="rating-col">
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i
+                      class="fa-solid fa-star"
+                      style="color: rgba(0, 0, 0, 0.2)"
+                    ></i>
+                  </div>
+                  <p>7.5</p>
+                </div>
+                <p style="color: rgba(0, 0, 0, 0.5); margin-top: 0.5rem">
+                  Ipad
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- Sixth Item -->
+          <a href="../item-details/items.html">
+            <div class="deal-item">
+              <div class="deal-img-container">
+                <img src="../assets/1.jpg" alt="Iphone" />
+              </div>
+              <div class="deal-item-col-2">
+                <div class="price">
+                  <h3>$630.50</h3>
+                  <h5>$650.99</h5>
+                </div>
+                <div class="rating-container">
+                  <div class="rating-col">
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i
+                      class="fa-solid fa-star"
+                      style="color: rgba(0, 0, 0, 0.2)"
+                    ></i>
+                  </div>
+                  <p>7.5</p>
+                </div>
+                <p style="color: rgba(0, 0, 0, 0.5); margin-top: 0.5rem">
+                  Iphone
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- Seventh Item -->
+          <a href="../item-details/items.html">
+            <div class="deal-item">
+              <div class="deal-img-container">
+                <img src="../assets/6.jpg" alt="Smart Watch" />
+              </div>
+              <div class="deal-item-col-2">
+                <div class="price">
+                  <h3>$430.50</h3>
+                  <h5>$450.99</h5>
+                </div>
+                <div class="rating-container">
+                  <div class="rating-col">
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i
+                      class="fa-solid fa-star"
+                      style="color: rgba(0, 0, 0, 0.2)"
+                    ></i>
+                  </div>
+                  <p>7.5</p>
+                </div>
+                <p style="color: rgba(0, 0, 0, 0.5); margin-top: 0.5rem">
+                  GoPro 4k Camera
+                </p>
+              </div>
+            </div>
+          </a>
