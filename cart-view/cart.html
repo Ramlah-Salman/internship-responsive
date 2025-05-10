@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="./cart-style.css" />
+    <!-- FONT AWSOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <!-- NAVBAR -->
+      <nav>
+        <!-- Logo Section -->
+        <a href="../index.html">
+          <section class="logo-container">
+            <img src="../assets/navbar/logo-colored.png" alt="Brand" />
+          </section>
+        </a>
+        <!-- Nav Item -->
+        <section class="nav-item">
+          <div class="nav-col">
+            <div class="img-container">
+              <img src="../assets/navbar/contact.png" alt="Profile" />
+            </div>
+            <p>Profile</p>
+          </div>
+          <div class="nav-col">
+            <div class="img-container">
+              <img src="../assets/navbar/message.png" alt="message" />
+            </div>
+            <p>Message</p>
+          </div>
+          <div class="nav-col">
+            <div class="img-container">
+              <img src="../assets/navbar/order.png" alt="order" />
+            </div>
+            <p>Orders</p>
+          </div>
+          <div class="nav-col">
+            <div class="img-container">
+              <img src="../assets/navbar/cart.png" alt="cart" />
+            </div>
+            <p>My Cart</p>
+          </div>
+        </section>
+      </nav>
+      <!-- Cart Section -->
+      <h2 class="cart-heading">My cart</h2>
+      <section class="cart-section">
+        <section class="cart-item-grid"></section>
+
+        <div class="row">
+          <button class="shop-button">
+            <span
+              ><i class="fa-solid fa-arrow-left" style="color: white"></i
+            ></span>
+            &nbsp;&nbsp;Back to shop
+          </button>
+          <button class="remove-button">Remove All</button>
+        </div>
+        <section class="cart-col-2">
+          <div class="cart-col-2-sub-col">
+            <p>Have a Coupon</p>
+            <div class="flex">
+              <input type="text" placeholder="Add coupon" id="redeem-code" />
+              <button>Apply</button>
+            </div>
+          </div>
+          <div class="cart-col-2-sub-col">
+            <div class="row-1">
+              <p>Subtotal:</p>
+              <p class="total-amount"></p>
+            </div>
+            <div class="row-1">
+              <p>Discount:</p>
+              <p class="discount-amount" style="color: red">$10</p>
+            </div>
+            <div class="row-1">
+              <p>Tax:</p>
+              <p class="tax-amount" style="color: #00b517">$14</p>
+            </div>
+            <button class="checkout-button">Checkout</button>
+            <div class="payment-methods">
+              <img src="../assets/PAYMENT METHOD/mastercard.png" alt="" />
+              <img src="../assets/PAYMENT METHOD/paypal.png" alt="" />
+              <img src="../assets/PAYMENT METHOD/Visa.png" alt="" />
+              <img src="../assets/PAYMENT METHOD/apple-pay.png" alt="" />
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- Attributes -->
+      <section class="attributes-section"></section>
+      <!-- Saved for later -->
+      <!-- <section class="later-cart">
+        <h3 class="cart-heading">Saved for later</h3>
+        <section class="later-cart-grid">
+          <div class="cart-col">
+            <div class="cart-img">
+              <img src="../assets/2.jpg" alt="" />
+            </div>
+            <h4 style="font-weight: 700">$30</h4>
+            <p style="color: rgba(0, 0, 0, 0.5)">Ipad</p>
+            <div class="move-cart">
+              <button class="cart-btn">
+                <span
+                  ><i
+                    class="fa-solid fa-cart-shopping"
+                    id="cart-icon"
+                  ></i></span
+                >&nbsp;&nbsp;Move to cart
+              </button>
+            </div>
+          </div>
+        </section>
+      </section> -->
+      <!-- discount-card -->
+      <section class="discount-section">
+        <div class="discount-col-1">
+          <h2>Super discount on more than 100 USD</h2>
+          <p>Have you ever finally just write dummy info</p>
+        </div>
+
+        <div class="discount-col-2">
+          <button>Shop now</button>
+        </div>
+      </section>
+
+      <footer class="footer-section">
+        <div class="footer-col-1">
+          <section class="logo-container">
+            <img src="../assets/navbar/logo-colored.png" alt="Brand" />
+          </section>
+          <p style="color: hsla(0, 0%, 0%, 0.5)">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <section class="social-media-icons">
+            <a href="#" class="social-icon">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </section>
+        </div>
+        <div class="footer-col-2">
+          <p style="font-weight: 700">About</p>
+          <div class="footer-link-container">
+            <a href="#" class="footer-link">About Us</a>
+            <a href="#" class="footer-link">Find Store</a>
+            <a href="#" class="footer-link">Categories</a>
+            <a href="#" class="footer-link">Blogs</a>
+          </div>
+        </div>
+        <div class="footer-col-3">
+          <p style="font-weight: 700">Partnership</p>
+          <div class="footer-link-container">
+            <a href="#" class="footer-link">About Partnership</a>
+            <a href="#" class="footer-link">Outlets</a>
+            <a href="#" class="footer-link">Demands</a>
+            <a href="#" class="footer-link">History</a>
+          </div>
+        </div>
+        <div class="footer-col-4">
+          <p style="font-weight: 700">Information</p>
+          <div class="footer-link-container">
+            <a href="#" class="footer-link">Help Center</a>
+            <a href="#" class="footer-link">Money Refund</a>
+            <a href="#" class="footer-link">Shipping</a>
+            <a href="#" class="footer-link">Contact Us</a>
+          </div>
+        </div>
+        <div class="footer-col-5">
+          <p style="font-weight: 700">For User</p>
+          <div class="footer-link-container">
+            <a href="#" class="footer-link">Login</a>
+            <a href="#" class="footer-link">Register</a>
+            <a href="#" class="footer-link">Settings</a>
+            <a href="#" class="footer-link">My Order</a>
+          </div>
+        </div>
+        <div class="footer-col-5">
+          <p style="font-weight: 700">Get App</p>
+          <div class="footer-link-container">
+            <div class="img-container app-container">
+              <img src="../assets/market-button.png" alt="" />
+            </div>
+            <div class="img-container app-container">
+              <img src="../assets/market-button-2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </footer>
+      <section class="copy-right-container">
+        <p>&copy; <span>2025 Ecommerce</span></p>
+        <div class="language-drop-down">
+          <div class="drop-col-img">
+            <img src="../assets/usa.png" alt="" />
+          </div>
+          <p>English</p>
+          <i class="fa-solid fa-caret-up" style="color: rgba(0, 0, 0, 0.5)"></i>
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
