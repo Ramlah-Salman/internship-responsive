@@ -1,0 +1,56 @@
+[
+  {
+    "id": 18,
+    "name": "T-Shirt with multiple colors, for men",
+    "price": "$10.30",
+    "src": "../assets/cloth/1.jpg",
+    "discount_price": "$15",
+    "rating": 10,
+    "anchor": "../item-details/items.html?id=18"
+  },
+  {
+    "id": 19,
+    "name": "Jacket with multiple colors",
+    "price": "$20.30",
+    "src": "../assets/cloth/3.jpg",
+    "discount_price": "$30",
+    "rating": 8,
+    "anchor": "../item-details/items.html?id=19"
+  },
+  {
+    "id": 20,
+    "name": "Jeans Short",
+    "price": "$8.30",
+    "src": "../assets/cloth/4.jpg",
+    "discount_price": "$10",
+    "rating": 8,
+    "anchor": "../item-details/items.html?id=20"
+  },
+  {
+    "id": 21,
+    "name": "Denim Bag",
+    "price": "$14.30",
+    "src": "../assets/cloth/5.jpg",
+    "discount_price": "$20",
+    "rating": 10,
+    "anchor": "../item-details/items.html?id=21"
+  },
+  {
+    "id": 22,
+    "name": "Plain Coat",
+    "price": "$20.30",
+    "src": "../assets/cloth/7.jpg",
+    "discount_price": "$25",
+    "rating": 8,
+    "anchor": "../item-details/items.html?id=22"
+  },
+  {
+    "id": 23,
+    "name": "Wallet",
+    "price": "$15.30",
+    "src": "../assets/cloth/6.jpg",
+    "discount_price": "$30",
+    "rating": 10,
+    "anchor": "../item-details/items.html?id=23"
+  }
+]

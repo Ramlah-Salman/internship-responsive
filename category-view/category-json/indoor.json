@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Soft Chairs",
+    "price": "$19",
+    "discount_price": "$30",
+    "rating": 8,
+    "src": "../assets/Outdoor/1.jpg",
+    "anchor": "../item-details/items.html?id=6"
+  },
+  {
+    "id": 2,
+    "name": "Lamp",
+    "price": "$39",
+    "discount_price": "$70",
+    "rating": 10,
+    "src": "../assets/Outdoor/6.jpg",
+    "anchor": "../item-details/items.html?id=7"
+  },
+  {
+    "id": 3,
+    "name": "Pot",
+    "price": "$9",
+    "discount_price": "$13",
+    "rating": 5,
+    "src": "../assets/Outdoor/3.jpg",
+    "anchor": "../item-details/items.html?id=8"
+  },
+  {
+    "id": 4,
+    "name": "Washing Machine",
+    "price": "$69",
+    "discount_price": "$80",
+    "rating": 10,
+    "src": "../assets/Outdoor/10.jpg",
+    "anchor": "../item-details/items.html?id=9"
+  },
+  {
+    "id": 5,
+    "name": "Chair",
+    "price": "$30",
+    "discount_price": "$40",
+    "rating": 10,
+    "src": "../assets/Outdoor/2.jpg",
+    "anchor": "../item-details/items.html?id=10"
+  },
+  {
+    "id": 6,
+    "name": "Coffee Maker",
+    "price": "$39",
+    "discount_price": "$60",
+    "rating": 10,
+    "src": "../assets/Outdoor/8.jpg",
+    "anchor": "../item-details/items.html?id=11"
+  },
+  {
+    "id": 7,
+    "name": "Juicer",
+    "price": "$9",
+    "discount_price": "$15",
+    "rating": 10,
+    "src": "../assets/Outdoor/9.jpg",
+    "anchor": "../item-details/items.html?id=12"
+  }
+]

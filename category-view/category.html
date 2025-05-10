@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="./category-style.css" />
+    <!-- FONT AWSOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <!-- NAVBAR -->
+      <nav>
+        <!-- Logo Section -->
+        <section class="logo-container">
+          <a href="../index.html">
+            <img src="../assets/navbar/logo-colored.png" alt="Brand" />
+          </a>
+        </section>
+        <!-- SearchBar Section -->
+        <section class="searchbar-container">
+          <div class="search-col">
+            <input type="search" id="searchbar" placeholder="Search" />
+          </div>
+          <!-- Dropdown Category -->
+          <select name="drop-down" id="drop-down">
+            <option value="">All Category</option>
+            <option value="Electronic">Electronic</option>
+            <option value="Fashion">Fashion</option>
+            <option value="Indoor">Indoor</option>
+          </select>
+          <!-- Search Button -->
+          <div class="search-btn-container">
+            <button>Search</button>
+          </div>
+        </section>
+        <!-- Nav Item -->
+        <section class="nav-item">
+          <div class="nav-col">
+            <div class="img-container">
+              <img src="../assets/navbar/contact.png" alt="Profile" />
+            </div>
+            <p>Profile</p>
+          </div>
+          <div class="nav-col">
+            <div class="img-container">
+              <img src="../assets/navbar/message.png" alt="message" />
+            </div>
+            <p>Message</p>
+          </div>
+          <a href="../cart-view/cart.html">
+            <div class="nav-col">
+              <div class="img-container">
+                <img src="../assets/navbar/order.png" alt="order" />
+              </div>
+              <p>Orders</p>
+            </div>
+          </a>
+          <a href="../cart-view/cart.html">
+            <div class="nav-col">
+              <div class="img-container">
+                <img src="../assets/navbar/cart.png" alt="cart" />
+              </div>
+              <p>My Cart</p>
+            </div>
+          </a>
+        </section>
+      </nav>
+      <!-- Category Section -->
+      <section class="category-section">
+        <section class="category-col-1">
+          <div class="cat-item">
+            <i class="fa-solid fa-bars"></i>
+            <p>All Category</p>
+          </div>
+          <div class="cat-item">
+            <p>Hot offers</p>
+          </div>
+          <div class="cat-item">
+            <p>Gift boxes</p>
+          </div>
+          <div class="cat-item">
+            <p>Projects</p>
+          </div>
+          <div class="cat-item">
+            <p>Menu item</p>
+          </div>
+          <div class="cat-item">
+            <select name="" id="help" class="drop-down">
+              <option value="">Help</option>
+            </select>
+          </div>
+        </section>
+        <section class="category-col-2">
+          <div class="cat-item">
+            <select name="language" id="language" class="drop-down">
+              <option value="">English, USD</option>
+            </select>
+          </div>
+          <div class="cat-item">
+            <div class="country-dropdown">
+              <div class="drop-col">
+                <p>Ship to</p>
+              </div>
+              <div class="drop-col-img">
+                <img src="../assets/usa.png" alt="USA" />
+              </div>
+              <div class="drop-icon">
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- Items Section -->
+      <section class="item-section">
+        <section class="item-col-1">
+          <div class="item-sub-col">
+            <div class="row accordion">
+              <h4>Category</h4>
+              <i class="fa-solid fa-caret-up"></i>
+              <!-- <i class="fa-solid fa-caret-down hidden"></i> -->
+            </div>
+            <div class="row-accordian-content">
+              <p>Mobile accessory</p>
+              <p>Electronic</p>
+              <p>Smartphones</p>
+              <p>Modern tech</p>
+              <p style="color: #0d6efd">See all</p>
+            </div>
+          </div>
+          <div class="item-sub-col">
+            <div class="row accordion">
+              <h4>Brands</h4>
+              <i class="fa-solid fa-caret-up"></i>
+              <!-- <i class="fa-solid fa-caret-down hidden"></i> -->
+            </div>
+            <div class="row-accordian-content">
+              <div class="checkbox-container">
+                <input type="checkbox" />
+                <label for="">Samsung</label>
+              </div>
+              <div class="checkbox-container">
+                <input type="checkbox" />
+                <label for="">Apple</label>
+              </div>
+              <div class="checkbox-container">
+                <input type="checkbox" />
+                <label for="">Xiaomi</label>
+              </div>
+              <div class="checkbox-container">
+                <input type="checkbox" />
+                <label for="">Lenovo</label>
+              </div>
+              <p style="color: #0d6efd">See all</p>
+            </div>
+          </div>
+          <div class="item-sub-col">
+            <div class="row accordion">
+              <h4>Features</h4>
+              <i class="fa-solid fa-caret-up"></i>
+              <!-- <i class="fa-solid fa-caret-down hidden"></i> -->
+            </div>
+            <div class="row-accordian-content">
+              <div class="checkbox-container">
+                <input type="checkbox" />
+                <label for="">Metallic</label>
+              </div>
+              <div class="checkbox-container">
+                <input type="checkbox" />
+                <label for="">Plastic</label>
+              </div>
+              <div class="checkbox-container">
+                <input type="checkbox" />
+                <label for="">8GB Ram</label>
+              </div>
+              <div class="checkbox-container">
+                <input type="checkbox" />
+                <label for="">Large Memory</label>
+              </div>
+            </div>
+          </div>
+          <div class="item-sub-col">
+            <div class="row accordion">
+              <h4>Price range</h4>
+              <i class="fa-solid fa-caret-up"></i>
+              <!-- <i class="fa-solid fa-caret-down hidden"></i> -->
+            </div>
+          </div>
+          <div class="item-sub-col">
+            <div class="row accordion">
+              <h4>Condition</h4>
+              <i class="fa-solid fa-caret-up"></i>
+              <!-- <i class="fa-solid fa-caret-down hidden"></i> -->
+            </div>
+          </div>
+        </section>
+        <section class="item-col-2">
+          <!-- First Item -->
+          <!-- <a href="../item-details/items.html">
+            <div class="deal-item">
+              <div class="deal-img-container">
+                <img src="../assets/8.jpg" alt="Smart Watch" />
+              </div>
+              <div class="deal-item-col-2">
+                <div class="price">
+                  <h3>$30.50</h3>
+                  <h5>$50.99</h5>
+                </div>
+                <div class="rating-container">
+                  <div class="rating-col">
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i class="fa-solid fa-star" style="color: goldenrod"></i>
+                    <i
+                      class="fa-solid fa-star"
+                      style="color: rgba(0, 0, 0, 0.2)"
+                    ></i>
+                  </div>
+                  <p>7.5</p>
+                </div>
+                <p style="color: rgba(0, 0, 0, 0.5); margin-top: 0.5rem">
+                  SmartWatch
+                </p>
+              </div>
+            </div>
+          </a> -->
+          <!-- Some Content Here -->
+        </section>
+      </section>
+      <!-- Next Page Container -->
+      <section class="next-page-container">
+        <div class="show-col-1">
+          <select name="show-more" id="show-more">
+            <option value="">10</option>
+            <option value="">20</option>
+            <option value="">30</option>
+            <option value="">40</option>
+          </select>
+        </div>
+        <div class="show-col-2">
+          <i class="fa-solid fa-angle-left"></i>
+          <p class="page-btn">1</p>
+          <p class="page-btn">2</p>
+          <p class="page-btn">3</p>
+          <i class="fa-solid fa-angle-right"></i>
+        </div>
+      </section>
+    </main>
+    <!-- News Letter Section -->
+    <section class="newsletter-container">
+      <h3>Subscribe on our news letter</h3>
+      <p>
+        Get daily news on upcoming offers from many suppliers all over the world
+      </p>
+      <form action="" class="email-form">
+        <div class="email-container">
+          <i class="fa-solid fa-envelope"></i>
+          <input type="email" placeholder="Email" id="email" />
+        </div>
+      </form>
+      <div class="subscribe-btn-container">
+        <button class="subscribe-btn">Subscribe</button>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="footer-col-1">
+        <section class="logo-container">
+          <img src="../assets/navbar/logo-colored.png" alt="Brand" />
+        </section>
+        <p style="color: hsla(0, 0%, 0%, 0.5)">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <section class="social-media-icons">
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </section>
+      </div>
+      <div class="footer-col-2">
+        <p style="font-weight: 700">About</p>
+        <div class="footer-link-container">
+          <a href="#" class="footer-link">About Us</a>
+          <a href="#" class="footer-link">Find Store</a>
+          <a href="#" class="footer-link">Categories</a>
+          <a href="#" class="footer-link">Blogs</a>
+        </div>
+      </div>
+      <div class="footer-col-3">
+        <p style="font-weight: 700">Partnership</p>
+        <div class="footer-link-container">
+          <a href="#" class="footer-link">About Partnership</a>
+          <a href="#" class="footer-link">Outlets</a>
+          <a href="#" class="footer-link">Demands</a>
+          <a href="#" class="footer-link">History</a>
+        </div>
+      </div>
+      <div class="footer-col-4">
+        <p style="font-weight: 700">Information</p>
+        <div class="footer-link-container">
+          <a href="#" class="footer-link">Help Center</a>
+          <a href="#" class="footer-link">Money Refund</a>
+          <a href="#" class="footer-link">Shipping</a>
+          <a href="#" class="footer-link">Contact Us</a>
+        </div>
+      </div>
+      <div class="footer-col-5">
+        <p style="font-weight: 700">For User</p>
+        <div class="footer-link-container">
+          <a href="#" class="footer-link">Login</a>
+          <a href="#" class="footer-link">Register</a>
+          <a href="#" class="footer-link">Settings</a>
+          <a href="#" class="footer-link">My Order</a>
+        </div>
+      </div>
+      <div class="footer-col-5">
+        <p style="font-weight: 700">Get App</p>
+        <div class="footer-link-container">
+          <div class="img-container app-container">
+            <img src="../assets/market-button.png" alt="" />
+          </div>
+          <div class="img-container app-container">
+            <img src="../assets/market-button-2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section class="copy-right-container">
+      <p>&copy; <span>2025 Ecommerce</span></p>
+      <div class="language-drop-down">
+        <div class="drop-col-img">
+          <img src="../assets/usa.png" alt="" />
+        </div>
+        <p>English</p>
+        <i class="fa-solid fa-caret-up" style="color: rgba(0, 0, 0, 0.5)"></i>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+    <script src="./tech-category.js"></script>
+    <script src="./indoor-category.js"></script>
+    <script src="./fashion-category.js"></script>
+    <script src="./all-category.js"></script>
+  </body>
+</html>

@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "name": "Soft Chairs",
+    "price": "$19",
+    "discount_price": "$30",
+    "rating": 8,
+    "src": "../assets/Outdoor/1.jpg",
+    "anchor": "../item-details/items.html?id=6"
+  },
+  {
+    "id": 2,
+    "name": "Lamp",
+    "price": "$39",
+    "discount_price": "$70",
+    "rating": 10,
+    "src": "../assets/Outdoor/6.jpg",
+    "anchor": "../item-details/items.html?id=7"
+  },
+  {
+    "id": 3,
+    "name": "Pot",
+    "price": "$9",
+    "discount_price": "$13",
+    "rating": 5,
+    "src": "../assets/Outdoor/3.jpg",
+    "anchor": "../item-details/items.html?id=8"
+  },
+  {
+    "id": 4,
+    "name": "Washing Machine",
+    "price": "$69",
+    "discount_price": "$80",
+    "rating": 10,
+    "src": "../assets/Outdoor/10.jpg",
+    "anchor": "../item-details/items.html?id=9"
+  },
+  {
+    "id": 5,
+    "name": "Chair",
+    "price": "$30",
+    "discount_price": "$40",
+    "rating": 10,
+    "src": "../assets/Outdoor/2.jpg",
+    "anchor": "../item-details/items.html?id=10"
+  },
+  {
+    "id": 6,
+    "name": "Coffee Maker",
+    "price": "$39",
+    "discount_price": "$60",
+    "rating": 10,
+    "src": "../assets/Outdoor/8.jpg",
+    "anchor": "../item-details/items.html?id=11"
+  },
+  {
+    "id": 7,
+    "name": "Juicer",
+    "price": "$9",
+    "discount_price": "$15",
+    "rating": 10,
+    "src": "../assets/Outdoor/9.jpg",
+    "anchor": "../item-details/items.html?id=12"
+  },
+  {
+    "id": 8,
+    "name": "SmartPhone",
+    "price": "$69",
+    "discount_price": "$80",
+    "rating": 8,
+    "src": "../assets/tech/1.jpg",
+    "anchor": "../item-details/items.html?id=15"
+  },
+  {
+    "id": 9,
+    "name": "Ipad",
+    "price": "$130",
+    "discount_price": "$140",
+    "rating": 10,
+    "src": "../assets/tech/2.jpg",
+    "anchor": "../item-details/items.html?id=16"
+  },
+  {
+    "id": 10,
+    "name": "SmartPhone Android",
+    "price": "$40",
+    "discount_price": "$50",
+    "rating": 4,
+    "src": "../assets/tech/3.jpg",
+    "anchor": "../item-details/items.html?id=25"
+  },
+  {
+    "id": 11,
+    "name": "Iphone 16 Pro",
+    "price": "$709",
+    "discount_price": "$800",
+    "rating": 10,
+    "src": "../assets/tech/4.jpg",
+    "anchor": "../item-details/items.html?id=17"
+  },
+  {
+    "id": 12,
+    "name": "Gaming Headset",
+    "price": "$59",
+    "discount_price": "$70",
+    "rating": 7,
+    "src": "../assets/tech/5.jpg",
+    "anchor": "../item-details/items.html?id=4"
+  },
+  {
+    "id": 13,
+    "name": "GoPro cameras",
+    "price": "$39",
+    "discount_price": "$60",
+    "rating": 8,
+    "src": "../assets/tech/6.jpg",
+    "anchor": "../item-details/items.html?id=3"
+  },
+  {
+    "id": 14,
+    "name": "Laptop",
+    "price": "$239",
+    "discount_price": "$300",
+    "rating": 9,
+    "src": "../assets/tech/7.jpg",
+    "anchor": "../item-details/items.html?id=2"
+  },
+  {
+    "id": 15,
+    "name": "Smart Watch",
+    "price": "$19",
+    "discount_price": "$59",
+    "rating": 8,
+    "src": "../assets/tech/8.jpg",
+    "anchor": "../item-details/items.html?id=1"
+  },
+  {
+    "id": 16,
+    "name": "Headphone",
+    "price": "$70",
+    "discount_price": "$100",
+    "rating": 10,
+    "src": "../assets/tech/9.jpg",
+    "anchor": "../item-details/items.html?id=14"
+  },
+  {
+    "id": 17,
+    "name": "T-Shirt with multiple colors, for men",
+    "price": "$10.30",
+    "src": "../assets/cloth/1.jpg",
+    "discount_price": "$15",
+    "rating": 10,
+    "anchor": "../item-details/items.html?id=18"
+  },
+  {
+    "id": 18,
+    "name": "Jacket with multiple colors",
+    "price": "$20.30",
+    "src": "../assets/cloth/3.jpg",
+    "discount_price": "$30",
+    "rating": 8,
+    "anchor": "../item-details/items.html?id=19"
+  },
+  {
+    "id": 19,
+    "name": "Jeans Short",
+    "price": "$8.30",
+    "src": "../assets/cloth/4.jpg",
+    "discount_price": "$10",
+    "rating": 8,
+    "anchor": "../item-details/items.html?id=20"
+  },
+  {
+    "id": 20,
+    "name": "Denim Bag",
+    "price": "$14.30",
+    "src": "../assets/cloth/5.jpg",
+    "discount_price": "$20",
+    "rating": 10,
+    "anchor": "../item-details/items.html?id=21"
+  },
+  {
+    "id": 21,
+    "name": "Plain Coat",
+    "price": "$20.30",
+    "src": "../assets/cloth/7.jpg",
+    "discount_price": "$25",
+    "rating": 8,
+    "anchor": "../item-details/items.html?id=22"
+  },
+  {
+    "id": 22,
+    "name": "Wallet",
+    "price": "$15.30",
+    "src": "../assets/cloth/6.jpg",
+    "discount_price": "$30",
+    "rating": 10,
+    "anchor": "../item-details/items.html?id=23"
+  }
+]
